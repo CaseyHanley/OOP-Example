@@ -21,5 +21,10 @@ public class App
         doc.workDescription();
         fullStackEngineer.workDescription();
 
+        //Encapsulation: You can not access the variable directly
+        System.out.println(doc.getPay());
+        System.out.println(fullStackEngineer.getPay());
+
+
     }
 }
